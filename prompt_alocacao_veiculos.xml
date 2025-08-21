@@ -129,14 +129,7 @@
                     <condition>Tempo de espera entre 0 e 10 minutos (600 segundos)</condition>
                     <action>Alocar para o veículo com menor tempo de espera que atenda aos critérios</action>
                 </level_1>
-                
-                <level_2>
-                    <condition>Mesmo terminal de destino da viagem anterior = origem da viagem atual</condition>
-                    <condition>Qualquer linha de transporte</condition>
-                    <condition>Tempo de espera entre 0 e 10 minutos (600 segundos)</condition>
-                    <action>Alocar para o veículo com menor tempo de espera que atenda aos critérios</action>
-                </level_2>
-                
+                                             
                 <fallback>
                     <condition>Nenhum veículo disponível atende aos critérios</condition>
                     <action>Criar novo veículo com numeração sequencial (Veículo1, Veículo2, etc.)</action>
